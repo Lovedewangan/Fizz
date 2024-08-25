@@ -15,8 +15,3 @@ function resetVideo() {
 
 // Add a click event listener to the video to trigger the playVideo function
 video.addEventListener("click", playVideo);
-$(document).ready(function () {
-    if (!$.browser.webkit) {
-        $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
-    }
-});
